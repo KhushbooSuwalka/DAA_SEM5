@@ -27,19 +27,19 @@ Here is the official laboratory syllabus detailing the core experiments to be co
 
 Below is a detailed breakdown of the experiments mapped to the syllabus, current implementations, and algorithmic paradigms:
 
-| S.No. | Experiment / Problem Description | Algorithmic Paradigm | Implementation File | Status |
-| :---: | :--- | :---: | :---: | :---: |
-| **1** | Sort an unsorted array using **Quick Sort** and answer search queries using **Binary Search**. | Divide & Conquer / Decrease & Conquer | [`Code1.cpp`](./Code1.cpp) | 🟢 Completed |
-| **-** | Sort an unsorted array using **Merge Sort** *(Core fundamental algorithm)*. | Divide & Conquer | [`Code2.cpp`](./Code2.cpp) | 🟢 Completed *(Bonus)* |
-| **2** | Matrix Multiplication using **Strassen's Algorithm**. | Divide & Conquer | [`Code3.cpp`](./Code3.cpp) | 🟢 Completed |
-| **3** | **Knapsack Problem** using Dynamic Programming and Greedy Method. | Dynamic Programming / Greedy | [`Code4.cpp`](./Code4.cpp) *(Greedy)* | 🟡 In Progress |
-| **4** | Find the Minimum Cost Spanning Tree (MST) using **Prim's** and **Kruskal's** algorithms. | Greedy | *TBD* | 🔴 Pending |
-| **5** | **Matrix Chain Multiplication (MCM)** to compute the minimum scalar multiplications using Dynamic Programming. | Dynamic Programming | *TBD* | 🔴 Pending |
-| **6** | Find the **Longest Common Subsequence (LCS)** of two sequences using Dynamic Programming. | Dynamic Programming | *TBD* | 🔴 Pending |
-| **7** | Solve the **N-Queens Problem** using Backtracking. | Backtracking | *TBD* | 🔴 Pending |
-| **8** | String Pattern Matching using the **Knuth-Morris-Pratt (KMP) Algorithm**. | String Matching | *TBD* | 🔴 Pending |
-| **9** | Solve the **Assignment Problem** using the Branch and Bound method. | Branch and Bound | *TBD* | 🔴 Pending |
-| **10** | **All-Pairs Shortest Path** problem using **Floyd's Algorithm**. | Dynamic Programming | *TBD* | 🔴 Pending |
+| S.No. | Experiment / Problem Description | Algorithmic Paradigm | Implementation File |
+| :---: | :--- | :---: | :---: |
+| **1** | Sort an unsorted array using **Quick Sort** and answer search queries using **Binary Search**. | Divide & Conquer / Decrease & Conquer | 
+| **-** | Sort an unsorted array using **Merge Sort** *(Core fundamental algorithm)*. | Divide & Conquer | 
+| **2** | Matrix Multiplication using **Strassen's Algorithm**. | Divide & Conquer | 
+| **3** | **Knapsack Problem** using Dynamic Programming and Greedy Method. | Dynamic Programming / Greedy | 
+| **4** | Find the Minimum Cost Spanning Tree (MST) using **Prim's** and **Kruskal's** algorithms. | Greedy | 
+| **5** | **Matrix Chain Multiplication (MCM)** to compute the minimum scalar multiplications using Dynamic Programming. | Dynamic Programming | 
+| **6** | Find the **Longest Common Subsequence (LCS)** of two sequences using Dynamic Programming. | Dynamic Programming | 
+| **7** | Solve the **N-Queens Problem** using Backtracking. | Backtracking |  |
+| **8** | String Pattern Matching using the **Knuth-Morris-Pratt (KMP) Algorithm**. | String Matching |  |
+| **9** | Solve the **Assignment Problem** using the Branch and Bound method. | Branch and Bound |  |
+| **10** | **All-Pairs Shortest Path** problem using **Floyd's Algorithm**. | Dynamic Programming |  |
 
 ---
 
