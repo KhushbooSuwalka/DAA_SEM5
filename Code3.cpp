@@ -4,18 +4,18 @@
 using namespace std;
 
 // Function to add two matrices
-void add(int A[2][2], int B[2][2], int C[2][2]) {
-    for(int i=0;i<2;i++)
-        for(int j=0;j<2;j++)
-            C[i][j]=A[i][j]+B[i][j];
-}
+// void add(int A[2][2], int B[2][2], int C[2][2]) {
+//     for(int i=0;i<2;i++)
+//         for(int j=0;j<2;j++)
+//             C[i][j]=A[i][j]+B[i][j];
+// }
 
 // Function to subtract two matrices
-void subtract(int A[2][2], int B[2][2], int C[2][2]) {
-    for(int i=0;i<2;i++)
-        for(int j=0;j<2;j++)
-            C[i][j]=A[i][j]-B[i][j];
-}
+// void subtract(int A[2][2], int B[2][2], int C[2][2]) {
+//     for(int i=0;i<2;i++)
+//         for(int j=0;j<2;j++)
+//             C[i][j]=A[i][j]-B[i][j];
+// }
 
 // Strassen Multiplication for 2x2 matrices
 void strassen(int A[2][2], int B[2][2], int C[2][2]) {

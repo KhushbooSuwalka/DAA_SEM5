@@ -5,11 +5,9 @@
 using namespace std;
 
 // Function to print optimal parenthesization
-void printOptimalPar(int s[][100], int i, int j)
-{
+void printOptimalPar(int s[][100], int i, int j){
     // If there is only one matrix
-    if (i == j)
-    {
+    if (i == j){
         cout << "A" << i;
         return;
     }
@@ -39,15 +37,13 @@ int main()
     cout << "Enter dimensions of matrices:\n";
     cout << "For n matrices, enter " << n + 1 << " dimensions:\n";
 
-    for (int i = 0; i <= n; i++)
-    {
+    for (int i = 0; i <= n; i++){
         cin >> p[i];
     }
 
     // Step 1:
     // For a single matrix, multiplication cost is 0
-    for (int i = 1; i <= n; i++)
-    {
+    for (int i = 1; i <= n; i++){
         m[i][i] = 0;
     }
 
@@ -78,8 +74,7 @@ int main()
 
     // Step 3:
     // Minimum scalar multiplications
-    cout << "\nMinimum number of scalar multiplications = "
-         << m[1][n] << endl;
+    cout << "\nMinimum number of scalar multiplications = " << m[1][n] << endl;
 
     // Step 4:
     // Print optimal sequence
